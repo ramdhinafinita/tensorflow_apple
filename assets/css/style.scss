@@ -12,7 +12,7 @@
 //   overflow-y: scroll; /* Enable vertical scrolling */
 //   scrollbar-gutter:var(--gutter,auto);
 // }
-wrapper {
+.wrapper {
   width: 1200px;
   margin: 0 auto;
   overflow-y: scroll; 
@@ -24,7 +24,7 @@ section {
   padding-bottom:50px;
 }
 
-header {
+header .sidebar{
   width: 300px; /* Adjust the width according to your needs */
   height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
   margin:0 auto;
