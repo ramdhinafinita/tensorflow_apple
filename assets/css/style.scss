@@ -13,19 +13,19 @@
 //   scrollbar-gutter:var(--gutter,auto);
 // }
 .wrapper {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   overflow-y: scroll; 
 }
 
 section {
-  width:900px;
+  width:70%;
   float:right;
   padding-bottom:50px;
 }
 
 header .sidebar{
-  width: 300px; /* Adjust the width according to your needs */
+  width: 30%; /* Adjust the width according to your needs */
   height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
   margin:0 auto;
   float:left;
