@@ -3,14 +3,19 @@
 
 @import "{{ site.theme }}";
 
+// .wrapper {
+//   width:1200px;
+//   // left side is 270
+//   // 1200-270 = 930
+//   // 30px free room
+//   margin:0 auto;
+//   overflow-y: scroll; /* Enable vertical scrolling */
+//   scrollbar-gutter:var(--gutter,auto);
+// }
 .wrapper {
-  width:1200px;
-  // left side is 270
-  // 1200-270 = 930
-  // 30px free room
-  margin:0 auto;
-  overflow-y: scroll; /* Enable vertical scrolling */
-  scrollbar-gutter:var(--gutter,auto);
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; /* Clear floats */
 }
 
 section {
@@ -19,11 +24,12 @@ section {
   padding-bottom:50px;
 }
 
-.sidebar .header {
+header {
   width: 300px; /* Adjust the width according to your needs */
   height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
   margin:0 auto;
   float:left;
-  overflow-y: scroll; /* Enable vertical scrolling */
-  scrollbar-gutter:var(--gutter,auto);
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 100vh; /* Set a maximum height for the sidebar */
+  // scrollbar-gutter:var(--gutter,auto);
 }
