@@ -15,7 +15,7 @@
 .wrapper {
   width: 100%;
   margin: 0 auto;
-  overflow-y: scroll; 
+  overflow-y: auto; 
 }
 
 section {
@@ -25,11 +25,11 @@ section {
 }
 
 header .sidebar{
-  width: 30%; /* Adjust the width according to your needs */
+  position: relative;
   height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
   margin:0 auto;
   float:left;
-  overflow-y: scroll; /* Enable vertical scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
   max-height: 100vh; /* Set a maximum height for the sidebar */
   // scrollbar-gutter:var(--gutter,auto);
 }
