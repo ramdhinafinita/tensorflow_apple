@@ -29,7 +29,7 @@ header {
   height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
   margin:0 auto;
   float:left;
-  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-y: scroll; /* Enable vertical scrolling */
   max-height: 100vh; /* Set a maximum height for the sidebar */
   // scrollbar-gutter:var(--gutter,auto);
 }
