@@ -12,10 +12,10 @@
 //   overflow-y: scroll; /* Enable vertical scrolling */
 //   scrollbar-gutter:var(--gutter,auto);
 // }
-.wrapper {
+wrapper {
   width: 1200px;
   margin: 0 auto;
-  overflow: hidden; /* Clear floats */
+  overflow-y: scroll; 
 }
 
 section {
