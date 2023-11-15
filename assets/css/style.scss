@@ -28,7 +28,14 @@ section {
   float:right;
   padding-bottom:50px;
 }
-header .sidebar{
+
+header {
+    width: 30vw;
+    float: left;
+    position: relative;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.sidebar{
   position: relative;
   width:30vw; 
   height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
