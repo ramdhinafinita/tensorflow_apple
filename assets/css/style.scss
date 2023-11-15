@@ -34,6 +34,7 @@ header {
     float: left;
     position: fixed;
     -webkit-font-smoothing: subpixel-antialiased;
+  height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
 }
 .sidebar{
   position: fixed;
