@@ -43,5 +43,5 @@ header {
   margin:0 auto;
   float:left;
   overflow-y: auto; /* Enable vertical scrolling */
-  max-height: 100vh; /* Set a maximum height for the sidebar */
+  max-height: -webkit-fill-available; /* Set a maximum height for the sidebar */
 }
