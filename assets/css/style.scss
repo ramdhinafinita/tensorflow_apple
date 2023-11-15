@@ -23,14 +23,17 @@ section {
   float:right;
   padding-bottom:50px;
 }
-
+.section {
+  width:60%;
+  float:right;
+  padding-bottom:50px;
+}
 header .sidebar{
   position: relative;
-  width:40%; 
+  width:40vw; 
   height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
   margin:0 auto;
   float:left;
   overflow-y: auto; /* Enable vertical scrolling */
   max-height: 100vh; /* Set a maximum height for the sidebar */
-  // scrollbar-gutter:var(--gutter,auto);
 }
