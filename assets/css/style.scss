@@ -12,36 +12,36 @@
 //   overflow-y: scroll; /* Enable vertical scrolling */
 //   scrollbar-gutter:var(--gutter,auto);
 // }
-.wrapper {
-  width: 100%;
-  margin: 0 auto;
-  overflow-y: auto; 
-}
+// .wrapper {
+//   width: 100%;
+//   margin: 0 auto;
+//   overflow-y: auto; 
+// }
 
-section {
-  width:70%;
-  float:right;
-  padding-bottom:50px;
-}
-.section {
-  width:70%;
-  float:right;
-  padding-bottom:50px;
-}
+// section {
+//   width:70%;
+//   float:right;
+//   padding-bottom:50px;
+// }
+// .section {
+//   width:70%;
+//   float:right;
+//   padding-bottom:50px;
+// }
 
-header {
-    width: 47vh;
-    float: left;
-    position: fixed;
-    -webkit-font-smoothing: subpixel-antialiased;
-  height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
-}
-.sidebar{
-  position: fixed;
-  width:47vh; 
-  height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
-  margin:0 auto;
-  float:left;
-  overflow-y: auto; /* Enable vertical scrolling */
-  max-height: -webkit-fill-available; /* Set a maximum height for the sidebar */
-}
+// header {
+//     width: 47vh;
+//     float: left;
+//     position: fixed;
+//     -webkit-font-smoothing: subpixel-antialiased;
+//   height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
+// }
+// .sidebar{
+//   position: fixed;
+//   width:47vh; 
+//   height: 100vh; /* Adjust the height as needed; '100vh' means full viewport height */
+//   margin:0 auto;
+//   float:left;
+//   overflow-y: auto; /* Enable vertical scrolling */
+//   max-height: -webkit-fill-available; /* Set a maximum height for the sidebar */
+// }
